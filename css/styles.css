@@ -1,0 +1,61 @@
+/* Gradient Background for Navbar */
+.bg-gradient {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 100px 0;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+}
+
+/* Tools Section */
+.tools-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.tool-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tool-card .card-body {
+    padding: 30px;
+}
+
+.tool-card i {
+    color: #2575fc;
+}
+
+.tool-card .btn {
+    margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
