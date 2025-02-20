@@ -4,12 +4,52 @@ body {
     background-color: #f8f9fa;
 }
 
+/* Navigation Bar */
 .navbar {
-    background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
 }
 
-.tool-section {
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 150px 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+.hero-section img {
+    animation: float 3s infinite ease-in-out;
+}
+
+/* Tools Section */
+.tools-section {
     padding: 80px 0;
 }
 
@@ -26,6 +66,44 @@ body {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
+.tool-card .card-body {
+    padding: 30px;
+}
+
+.tool-card i {
+    color: #2575fc;
+}
+
+.tool-card .btn {
+    margin-top: 15px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.animate-float {
+    animation: float 3s infinite ease-in-out;
+}
+
+.animate-pop {
+    animation: pop 0.5s ease-in-out;
+}
+
+@keyframes pop {
+    0% { transform: scale(0); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Footer */
 .footer {
     background-color: #343a40;
     color: #fff;
