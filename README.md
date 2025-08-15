@@ -16,7 +16,4 @@ Welcome to the **Multi Tool Website**! This project is a collection of useful on
 - **Bootstrap 5**
 - **Font Awesome Icons**
 
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/multi-tool-website.git
+## Live Demo:https://abid-hossain-345.github.io/multi-tool-website/
